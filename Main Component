@@ -1,0 +1,28 @@
+fun main() {
+    var age: Int = 35
+    var fname: String = "Jan"
+    var mname: String = "C."
+    var lname: String = "Yodico"
+    var num1: Int = 1
+    var num2: Int = 9
+    **var result: Int 	//(;ex. from result)
+		//pwede din pla ito
+    _var result = num1+num2_
+		tapos iprint nlng ung result //**
+    println(age)
+    println(fname)
+    println(mname)
+    println(lname)
+    **println("Hello, $fname") //madali na format
+    println("Name's " + fname) //pwede din ito na format**
+    if(age >= 30) {
+        println("You aren't Old Enough")
+    }
+    else{
+        println("You are old")
+    }
+
+    result = num1 + num2 **_//*if gagawa ka nito, dapat idedeclare mo muna ito (;ex. result ay nadeclare muna)_**
+    println(result)
+
+}
